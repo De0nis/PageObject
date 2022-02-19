@@ -2,7 +2,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import TimeoutException
 from selenium.common.exceptions import NoSuchElementException
 from conftest import browser
-class Base:   
+class Base:                                    #main_test_base_class
         def __init__(self):
             self.browser=browser()
             
