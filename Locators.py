@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-
+"""locators_by_pages"""
 class LoginpageLocators(object):
     LOGIN_ID_FIELD = (By.ID,"passp-field-login")
     LOGIN_INCORRECT=(By.ID,"passp-field-passwd")
