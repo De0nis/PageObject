@@ -1,7 +1,7 @@
 from BasePage import Base
 from Locators import FirstpagePageLocators
 class Titlepage(Base):
-
+    
     def open(browsertype,url):
         Base.open(browsertype,url)
 
