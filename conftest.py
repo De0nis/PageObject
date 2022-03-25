@@ -1,7 +1,7 @@
 import pytest
 from selenium import webdriver
    
-@pytest.fixture(scope='session')
+@pytest.fixture(scope = 'session')
 def browser(url):
     print("\nstart Crome browser for test..")
     browser = webdriver.Chrome()
